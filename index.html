@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço MotivaAção | Especialista em Autismo</title>
+    
+    <!-- Fontes Amigáveis (Arredondadas e de fácil leitura) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Decoração Flutuante (Peças de Quebra-Cabeça) -->
+    <i class="fa-solid fa-puzzle-piece puzzle-floater pf-1"></i>
+    <i class="fa-solid fa-puzzle-piece puzzle-floater pf-2"></i>
+    <i class="fa-solid fa-puzzle-piece puzzle-floater pf-3"></i>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-puzzle-piece puzzle-logo"></i> 
+                Motiva<span>Ação</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="#intro" class="nav-link">Início</a>
+                <a href="#historia" class="nav-link">História</a>
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#atuacao" class="nav-link">Atuação</a>
+                <a href="#gallery" class="nav-link">Galeria</a>
+                <a href="#contact" class="btn-spectrum" style="padding: 10px 25px; margin-left: 15px; font-size: 0.9rem;">Agendar</a>
+            </nav>
+            
+            <i class="fa-solid fa-bars hamburger"></i>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="nav-menu-mobile">
+        <a href="#" class="logo" style="margin-bottom: 20px;">
+            <i class="fa-solid fa-puzzle-piece puzzle-logo"></i> Motiva<span>Ação</span>
+        </a>
+        <a href="#intro" class="nav-link">Início</a>
+        <a href="#historia" class="nav-link">Minha História</a>
+        <a href="#beneficios" class="nav-link">Benefícios</a>
+        <a href="#atuacao" class="nav-link">Atuação</a>
+        <a href="#gallery" class="nav-link">Galeria</a>
+        <a href="https://wa.me/5521968065794" class="btn-spectrum" style="width: 100%; margin-top: 20px;">Fale Conosco</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="intro">
+            <div class="container hero-grid">
+                <div class="hero-text reveal">
+                    <span class="badge-autism">
+                        <i class="fa-solid fa-infinity text-spectrum"></i> Neurodiversidade & Acolhimento
+                    </span>
+                    <h1 class="hero-title">Espaço MotivaAção: Abraçando o <span class="text-spectrum">Espectro!</span></h1>
+                    <p>Atendimento psicopedagógico especializado em Autismo e dificuldades de aprendizagem. Aqui, cada peça do quebra-cabeça importa.</p>
+                    
+                    <form id="contact-form" name="contato" method="POST" data-netlify="true" class="hero-form">
+                        <input type="hidden" name="form-name" value="contato">
+                        <label for="name">Nome do Responsável:</label>
+                        <input type="text" id="name" name="nome" required placeholder="Digite seu nome">
+                        <label for="phone">WhatsApp:</label>
+                        <input type="tel" id="phone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+                        <button type="submit" class="btn-spectrum" style="width: 100%;">Solicitar Atendimento</button>
+                    </form>
+                </div>
+                
+                <div class="hero-img-wrapper reveal">
+                    <img src="https://i.ibb.co/1YP6V7pF/Gemini-Generated-Image-vsq3s6vsq3s6vsq3-removebg-preview.png" alt="Psicopedagoga acolhendo criança" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- História -->
+        <section id="historia" class="section">
+            <div class="container">
+                <div class="puzzle-card reveal" style="border-top-color: var(--autism-blue);">
+                    <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                        <h2 style="color: var(--autism-blue); font-size: 2.2rem;">Minha Jornada na Educação</h2>
+                        <p style="text-align: justify; margin-top: 20px;">
+                            Formada no ano de 1997 no Colégio Estadual Presidente Rodrigues Alves. Em 1995 ingressei como Professora na APAE Paracambi, onde dediquei anos ao cuidado de crianças especiais até 2018. Essa experiência moldou meu olhar para a inclusão. Atualmente, como Psicopedagoga e Professora de sala de recursos, trago toda essa bagagem para o Espaço MotivaAção, oferecendo um atendimento que entende as necessidades únicas do TEA (Transtorno do Espectro Autista).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefícios -->
+        <section id="beneficios" class="section">
+            <div class="container">
+                <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 50px;">Apoio   <span class="text-blue">Especializado</span></h2>
+                
+                <div class="bento-grid">
+                    <div class="puzzle-card reveal">
+                        <div class="icon-circle"><i class="fa-solid fa-brain"></i></div>
+                        <h3>Estimulação Cognitiva</h3>
+                        <p>Atividades focadas em atenção, memória e funções executivas, respeitando o ritmo de cada criança no espectro.</p>
+                    </div>
+                    <div class="puzzle-card reveal">
+                        <div class="icon-circle"><i class="fa-solid fa-comments"></i></div>
+                        <h3>Comunicação Social</h3>
+                        <p>Trabalhamos habilidades sociais e de linguagem para melhorar a interação e a expressão de sentimentos.</p>
+                    </div>
+                    <div class="puzzle-card reveal">
+                        <div class="icon-circle"><i class="fa-solid fa-hands-holding-circle"></i></div>
+                        <h3>Inclusão Escolar</h3>
+                        <p>Orientação para escolas e adaptação de materiais (PEI), garantindo que a inclusão aconteça na prática.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Atuação -->
+        <section id="atuacao" class="section" style="background: white;">
+            <div class="container">
+                <div class="hero-grid" style="align-items: flex-start;">
+                    <div class="reveal" style="flex: 1;">
+                        <h2 style="font-size: 2.2rem;">Como funciona o <span class="text-blue">Acompanhamento?</span></h2>
+                        <p>Utilizamos uma abordagem lúdica e estruturada (baseada em evidências) para avaliar e intervir nas dificuldades de aprendizagem.</p>
+                        
+                        <div class="atuacao-box">
+                            <p style="margin-bottom: 15px; font-weight: 700; color: var(--autism-blue);">Nossos Pilares de Atuação:</p>
+                            <ul class="atuacao-list">
+                                <li><i class="fa-solid fa-puzzle-piece"></i> Avaliação do Desenvolvimento (TEA/TDAH)</li>
+                                <li><i class="fa-solid fa-heart"></i> Suporte Emocional e Comportamental</li>
+                                <li><i class="fa-solid fa-shapes"></i> Intervenção Psicopedagógica Lúdica</li>
+                                <li><i class="fa-solid fa-users"></i> Orientação Parental (Família)</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="https://wa.me/5521968065794" class="btn-spectrum">Agendar Avaliação</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Galeria -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 40px;">Nosso <span class="text-spectrum">Espaço</span></h2>
+                <div class="gallery-grid reveal">
+                    <div class="gallery-item"><img src="https://i.ibb.co/qDJvdp2/foto1.jpg" alt="Atividade sensorial"></div>
+                    <div class="gallery-item"><img src="https://i.ibb.co/4ZfzRr0/foto5.jpg" alt="Profissional sorrindo"></div>
+                    <div class="gallery-item"><img src="https://i.ibb.co/TbnH5hy/foto3.jpg" alt="Recursos pedagógicos"></div>
+                    <div class="gallery-item"><img src="https://i.ibb.co/VxsCPxt/foto4.jpg" alt="Consultório adaptado"></div>
+                    <div class="gallery-item"><img src="https://i.ibb.co/1q14kpw/foto2.jpg" alt="Criança brincando"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="logo" style="justify-content: center; margin-bottom: 15px;">
+                        <i class="fa-solid fa-puzzle-piece puzzle-logo"></i> Motiva<span>Ação</span>
+                    </a>
+                    <p>Respeito, Inclusão e Desenvolvimento para todos.</p>
+                    <div class="footer-social" style="display: flex; gap: 15px; justify-content: center; margin-top: 20px;">
+                         <a href="https://www.instagram.com/mariliapsicopedagoga" target="_blank" class="social-circle"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://wa.me/5521968065794" target="_blank" class="social-circle"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 style="color: var(--autism-blue);">Navegação</h4>
+                    <ul>
+                        <li><a href="#intro">Início</a></li>
+                        <li><a href="#historia">História</a></li>
+                        <li><a href="#beneficios">Serviços</a></li>
+                        <li><a href="#atuacao">Metodologia</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="color: var(--autism-blue);">Contato</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: var(--autism-red);"></i> Paracambi, RJ</p>
+                    <p><i class="fa-solid fa-phone" style="color: var(--autism-teal);"></i> (21) 96806-5794</p>
+                </div>
+            </div>
+            
+            <div style="border-top: 1px solid #E2E8F0; margin-top: 40px; padding-top: 20px; text-align: center; font-size: 0.9rem; color: #94A3B8;">
+                &copy; 2025 Espaço MotivaAção | Feito por Caique Alonso
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5521968065794" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    
+     <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
