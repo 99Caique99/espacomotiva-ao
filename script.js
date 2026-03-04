@@ -196,3 +196,18 @@
                 animarParticulas();
             }
         });
+const botoesMagneticos = document.querySelectorAll('.btn-magnetico');
+            if(window.innerWidth > 991 && !ehToque) {
+                botoesMagneticos.forEach(botao => {
+                    botao.addEventListener('mousemove', (e) => {
+                        const posicao = botao.getBoundingClientRect();
+                        // CORREÇÃO: Usar clientX e clientY para não bugar com o scroll da página
+                        const x = e.clientX - posicao.left - posicao.width / 2;
+                        const y = e.clientY - posicao.top - posicao.height / 2;
+                        botao.style.transform = `translate(${x * 0.3}px, ${y * 0.4}px)`;
+                    });
+                    botao.addEventListener('mouseleave', () => {
+                        botao.style.transform = 'translate(0px, 0px)';
+                    });
+                });
+            }
